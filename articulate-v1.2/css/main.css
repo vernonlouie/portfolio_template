@@ -97,7 +97,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #page-profile {
     padding: 75px 0;
-    background: #fff;
+    /*background: #fff;*/
+    background: #f7f7f7;
 }
 #page-profile .profile {
     border: 5px solid #333;
@@ -530,4 +531,24 @@ label.valid {
     #page-profile .profile {
         margin: 0 auto 20px auto;
     }
+}
+
+.boeing {
+    /*border: 5px solid #333;*/
+    width: 65px;
+    height: 48px;
+    margin: 0 20px 20px 0;
+    display:    inline-block;
+}
+
+.LM {
+    /*border: 5px solid #333;*/
+    width: 56px;
+    height: 32px;
+    margin: 0 20px 20px 0;
+    display:    inline-block;
+}
+
+#page-experience .container .row .col-md-6 .experience header .boeing {
+    display:    inline-block;
 }

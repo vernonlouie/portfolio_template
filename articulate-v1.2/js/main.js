@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    /* My Email */
+    $("#personal_email").text(" vern864@gmail.com");
 
     /* Scroll hire me button to contact page */
     $('.hire-me').click(function() {
@@ -94,10 +96,10 @@ $(document).ready(function() {
 	
 	    $('#page-welcome').vegas({
         slides: [
-            { src: 'img/slider/01.jpg' },
-            { src: 'img/slider/02.jpg' },
-            { src: 'img/slider/03.jpg' },
-			{ src: 'img/slider/04.jpg' }
+            { src: 'img/slider/IMG_9096.jpg' },
+            { src: 'img/slider/20161030_120811.jpg' },
+            { src: 'img/slider/20161029_144458.jpg' },
+			{ src: 'img/slider/IMG_9027.jpg' }
         ],
     overlay: true
 });
