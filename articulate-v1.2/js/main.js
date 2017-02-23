@@ -19,7 +19,7 @@ $(document).ready(function() {
         {   quote:  "'I'm gonna make him an offer he can't refuse.' ",
             person: " -Vito Corleone"
         },
-        {   quote:  "Most folks are about as happy as they make up their minds to be.' ",
+        {   quote:  "'Most folks are about as happy as they make up their minds to be.' ",
             person: " -Lincoln"
         },
         {   quote:  "'Don't wait.  The time will never be just right.' ",

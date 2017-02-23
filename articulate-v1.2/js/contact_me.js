@@ -29,7 +29,7 @@ $(function() {
                 dataType:   "json",
 
             	success: function(result) {
-            	    console.log("success! "); console.log("result: " + result);
+            	    console.log("success! "); console.log("result: " + result.success);
 
                     if(result.success) {
                         $('#form_status ul>').append($("<li>",
