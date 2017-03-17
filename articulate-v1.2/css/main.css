@@ -102,8 +102,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #page-profile .profile {
     border: 5px solid #333;
-    width: 240px;
-    height: 183px;
+    width: 212px;
+    /*height: 183px;*/
     margin: 0 20px 20px 0;
 }
 #page-skills {
@@ -539,24 +539,50 @@ label.valid {
     }
 }
 
+.lfz {
+    width:      60px;
+    height:     40px;
+    margin:     0 1em 1em 0;
+    display:    inline-block;
+    position:   relative;
+    bottom:     0.6em;
+}
+
+.sjsu {
+    width:      70px;
+    height:     50px;
+    margin:     0 1em 1em 0;
+    display:    inline-block;
+    position:   relative;
+    bottom:     0.4em;
+}
+
 .boeing {
     /*border: 5px solid #333;*/
-    width: 65px;
-    height: 48px;
-    margin: 0 20px 20px 0;
+    width:      100px;
+    height:     48px;
+    margin:     0 0 11px 0;
     display:    inline-block;
+    position:   relative;
+    bottom:     0.6em;
 }
 
 .LM {
     /*border: 5px solid #333;*/
-    width: 56px;
-    height: 32px;
-    margin: 0 20px 20px 0;
+    width:      100px;
+    height:     32px;
+    margin:     0 0 20px 0;
     display:    inline-block;
+    position:   relative;
+    bottom:     0.4em;
 }
 
 #page-experience .container .row .col-md-6 .experience header .boeing {
     display:    inline-block;
+}
+
+.education {
+    text-align: center;
 }
 
 #form_status {
