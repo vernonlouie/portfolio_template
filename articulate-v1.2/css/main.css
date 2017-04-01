@@ -209,6 +209,31 @@ h1, h2, h3, h4, h5, h6 {
     -o-transition-duration: 0s;
     transition-duration: 0s;
 }
+
+.page-portfolio p {
+    color:  black;
+}
+
+.project_box p {
+    /*border: 1px blue dotted;*/
+    padding:        5px 0 0 0;
+    margin-bottom:  2px;
+    color:          slategray;
+}
+
+.project_box img {
+    height:     50%;
+    width:      50%;
+    display:    block;
+    margin:     auto;
+}
+
+.project_box ul {
+    list-style-type:    none;
+    margin:             0;
+    padding:            0;
+}
+
 /* ==========================================================================
    Vegas slider
    ========================================================================== */
@@ -314,8 +339,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 0;
 }
 .spacer {
-    width: 100px;
-    height: 2px;
+    width:  200px;
+    height: 1px;
     margin: auto;
 }
 .section-subtitle {
@@ -497,6 +522,13 @@ label.valid {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+.blue {
+    color:  blue;
+}
+
+.darkblue {
+    color:  darkblue;
+}
 
 .left {
     float: left;
@@ -586,9 +618,6 @@ label.valid {
     background-color:   orange;
 }
 
-.page-portfolio p {
-    color:  black;
-}
 /* ==========================================================================
    Responsive Settings
    ========================================================================== */
@@ -631,6 +660,13 @@ label.valid {
 
     .section-header ul li {
         display:    block;
+        padding:    0.1em;
+    }
+
+    .spacer {
+        width:  50px;
+        height: 1px;
+        margin: auto;
     }
 
 }
