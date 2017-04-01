@@ -512,40 +512,8 @@ label.valid {
     margin-right: auto;
     float: none;
 }
-/* ==========================================================================
-   Responsive Settings
-   ========================================================================== */
 
-@media(max-width:992px) {
-    #page-profile .profile {
-        margin: 0 auto 20px auto;
-    }
-}
-@media (max-width: 479px) {
-    #page-welcome header h1 {
-        font-size: 2em;
-    }
-    #page-welcome header p {
-        font-size: 1em;
-        line-height: 3em;
-    }
-    .section-title {
-        font-size: 1.5em;
-    }
-    .section-header p {
-        font-size: 1.2em;
-    }
-    #page-skills {
-        text-align: center;
-    }
-    #grid {
-        text-align: center;
-    }
-    #page-profile .profile {
-        margin: 0 auto 20px auto;
-    }
-}
-
+/** my additions **/
 .lfz {
     width:      60px;
     height:     40px;
@@ -621,3 +589,50 @@ label.valid {
 .page-portfolio p {
     color:  black;
 }
+/* ==========================================================================
+   Responsive Settings
+   ========================================================================== */
+
+@media (max-width:992px) {
+    #page-profile .profile {
+        margin: 0 auto 20px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-info {
+        text-align: center;
+    }
+}
+
+@media (max-width: 479px) {
+    #page-welcome header h1 {
+        font-size: 2em;
+    }
+    #page-welcome header p {
+        font-size: 1em;
+        line-height: 3em;
+    }
+    .section-title {
+        font-size: 1.5em;
+    }
+    .section-header p {
+        font-size: 1.2em;
+    }
+    #page-skills {
+        text-align: center;
+    }
+    #grid {
+        text-align: center;
+    }
+    #page-profile .profile {
+        margin: 0 auto 20px auto;
+    }
+
+    .section-header ul li {
+        display:    block;
+    }
+
+}
+
+
