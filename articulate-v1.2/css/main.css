@@ -592,44 +592,18 @@ label.valid {
     text-align: center;
 }
 
-#five_html {
-    position:   relative;
-    top:        0.2em;
-}
-
-/*#lamp {*/
-    /*position:   relative;*/
-    /*bottom:     0.5em;*/
-/*}*/
-
-/*#github {*/
-    /*position:   relative;*/
-    /*bottom:     1.1em;*/
-/*}*/
-
-/*#phpmyadmin {*/
-    /*position:   relative;*/
-    /*top:        3em;*/
-/*}*/
-
-#form_status {
-    width:              100%;
-    height:             20%;
-    background-color:   orange;
-}
-
-.skill_icon {
+.skill_icon {                   /* box for the skill icon */
     width:  150px;
     height: 150px;
-    border: 1px dotted hotpink;
+    /*border: 1px dotted hotpink;*/
     margin: auto;
 }
 
-.max_height img{
+.max_height img{                /* a couple skill icons didn't fit in box with the default max-width of 100% */
     max-height: 100%
 }
 
-.page-skills h3 {
+.page-skills h3 {               /* get the skill text closer than default to the skill icon and further from the skill icon below */
     margin: 5px 0 25px 0;
 }
 
@@ -643,7 +617,7 @@ label.valid {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {     /* contact info looked funny being on the left side once it jumped on top of "get in touch" form */
     .contact-info {
         text-align: center;
     }
@@ -651,51 +625,59 @@ label.valid {
 
 @media (max-width: 479px) {
     #page-welcome header h1 {
-        font-size: 2em;
+        font-size:  2em;
     }
+
     #page-welcome header p {
-        font-size: 1em;
-        line-height: 3em;
+        font-size:      1em;
+        line-height:    3em;
     }
+
     .section-title {
-        font-size: 1.5em;
+        font-size:      1.5em;
     }
+
     .section-header p {
-        font-size: 1.2em;
+        font-size:      1.2em;
     }
+
     #page-skills {
         text-align: center;
     }
-    #grid {
+
+    #grid {                     /* the screenshots */
         text-align: center;
     }
-    #page-profile .profile {
-        margin: 0 auto 20px auto;
-    }
 
-    .section-header ul li {
+    .section-header ul li {     /* stack portfolio LiveLink & Source Code on top of each other vice inline */
         display:    block;
         padding:    0.1em;
     }
 
-    .spacer {
+    .spacer {                   /* shrink spacers, so that don't run into each other in portfolio section */
         width:  110px;
-        height: 1px;
-        margin: auto;
     }
 
-    #grid .mix .overlay {
-        width:      100px;
-        height:     75px;
-        position:   absolute;
-        opacity:    0;
-        top:        0;
-    }
-
-    #grid .mix {
+    #grid .mix {                /* shrink the screenshots to half size */
         width:  100px;
         height: 75px;
     }
+
+    #grid .mix .overlay {       /* shrink the corresponding overlays to half size */
+        width:      100px;
+        height:     75px;
+    }
+
+    .sjsu {                     /* SJSU icon was protruding into the spacer above, so had to move it away */
+        position:   absolute;
+        top:        -9999px;
+        left:       -9999px;
+    }
+
+    #grid {                     /* center the 2 columns of screenshots */
+        margin-left:    32px;
+    }
+
 }
 
 
