@@ -155,11 +155,11 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0;
 }
 #grid .mix .overlay {
-    width: 200px;
-    height: 150px;
-    position: absolute;
-    opacity: 0;
-	top:0;
+    width:      200px;
+    height:     150px;
+    position:   absolute;
+    opacity:    0;
+	top:        0;
 }
 #grid .mix .overlay:hover {
     opacity: .8;
@@ -597,25 +597,40 @@ label.valid {
     top:        0.2em;
 }
 
-#lamp {
-    position:   relative;
-    bottom:     0.5em;
-}
+/*#lamp {*/
+    /*position:   relative;*/
+    /*bottom:     0.5em;*/
+/*}*/
 
-#github {
-    position:   relative;
-    bottom:     1.1em;
-}
+/*#github {*/
+    /*position:   relative;*/
+    /*bottom:     1.1em;*/
+/*}*/
 
-#phpmyadmin {
-    position:   relative;
-    top:        3em;
-}
+/*#phpmyadmin {*/
+    /*position:   relative;*/
+    /*top:        3em;*/
+/*}*/
 
 #form_status {
-    width:  100%;
-    height: 20%;
+    width:              100%;
+    height:             20%;
     background-color:   orange;
+}
+
+.skill_icon {
+    width:  150px;
+    height: 150px;
+    border: 1px dotted hotpink;
+    margin: auto;
+}
+
+.max_height img{
+    max-height: 100%
+}
+
+.page-skills h3 {
+    margin: 5px 0 25px 0;
 }
 
 /* ==========================================================================
@@ -664,11 +679,23 @@ label.valid {
     }
 
     .spacer {
-        width:  50px;
+        width:  110px;
         height: 1px;
         margin: auto;
     }
 
+    #grid .mix .overlay {
+        width:      100px;
+        height:     75px;
+        position:   absolute;
+        opacity:    0;
+        top:        0;
+    }
+
+    #grid .mix {
+        width:  100px;
+        height: 75px;
+    }
 }
 
 
