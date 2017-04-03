@@ -248,11 +248,23 @@ h1, h2, h3, h4, h5, h6 {
     color:  darkslategrey;
 }
 
+.project_box {
+    text-align: center;
+}
+
+.project_box ul li {
+    display:    inline-block;
+    padding:    0.5em;
+    font-size:  1.2em;
+}
+
 .project_box p {
     /*border: 1px blue dotted;*/
     padding:        5px 0 0 0;
     margin-bottom:  2px;
     color:          slategray;
+    font-size:      20px;
+    font-weight:    600;
 }
 
 .project_box img {
@@ -266,6 +278,10 @@ h1, h2, h3, h4, h5, h6 {
     list-style-type:    none;
     margin:             0;
     padding:            0;
+}
+
+.app_screenshot {
+    width:  100vw;
 }
 
 /* ==========================================================================
@@ -588,6 +604,9 @@ label.valid {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+.block {
+    display:    block;
+}
 
 .left {
     float: left;
@@ -719,7 +738,7 @@ label.valid {
         text-align: center;
     }
 
-    .section-header ul li {     /* stack portfolio LiveLink & Source Code on top of each other vice inline */
+    .projects ul li {     /* stack portfolio LiveLink & Source Code on top of each other vice inline */
         display:    block;
         padding:    0.1em;
     }
