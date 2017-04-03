@@ -738,6 +738,15 @@ label.valid {
         height:     75px;
     }
 
+    .skill_icon {               /* shrink from 150 by 150px; be able to fit 3 skills in 1 row */
+        width:  75px;
+        height: 75px;
+    }
+
+    .page-skills h3 {           /* shrink corresponding skill text */
+        font-size:  12px;
+    }
+
     .sjsu {                     /* SJSU icon was protruding into the spacer above, so had to move it away */
         position:   absolute;
         top:        -9999px;
