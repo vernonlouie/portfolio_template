@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #page-profile {
-    padding:        75px 0;
+    padding:        40px 0;
     /*background: #fff;*/
     background:     #f7f7f7;
 }
@@ -126,28 +126,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #page-skills {
-    padding:    75px 0;
+    padding:    40px 0;
     background: #f7f7f7;
     text-align: center;
 }
 
 #page-education {
-    padding:    75px 0;
+    padding:    40px 0;
     background: #fff;
 }
 
 #page-experience {
-    padding:    75px 0;
+    padding:    40px 0;
     background: #f7f7f7;
 }
 
 #page-portfolio {
-    padding:    75px 0;
+    padding:    40px 0;
     background: #fff;
 }
 
 #page-contact {
-    padding:    75px 0;
+    padding:    40px 0;
 }
 
 #page-contact .contact-info p {
@@ -263,13 +263,14 @@ h1, h2, h3, h4, h5, h6 {
     padding:        5px 0 0 0;
     margin-bottom:  2px;
     color:          slategray;
-    font-size:      20px;
+    font-size:      18px;
     font-weight:    600;
+    font-style:     italic;
 }
 
 .project_box img {
-    height:     50%;
-    width:      50%;
+    height:     150px;
+    width:      200px;
     display:    block;
     margin:     auto;
 }
@@ -281,7 +282,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .app_screenshot {
-    width:  100vw;
+    position:   relative;
+    top:        0.6em;
+    clear:      both;
 }
 
 /* ==========================================================================
@@ -397,6 +400,7 @@ h1, h2, h3, h4, h5, h6 {
     color:          #555555;
     text-transform: uppercase;
     padding:        20px 0;
+    margin-top:     10px;
 }
 
 .spacer {
