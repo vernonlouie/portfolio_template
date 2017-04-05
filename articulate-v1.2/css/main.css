@@ -287,6 +287,26 @@ h1, h2, h3, h4, h5, h6 {
     clear:      both;
 }
 
+.tooltip {
+    position:   relative;
+    display:    inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility:         hidden;
+    width:              120px;
+    background-color:   darkblue;
+    color:              white;
+    text-align:         center;
+    border-radius:      1em;
+    position:           absolute;
+    z-index:            1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
 /* ==========================================================================
    Vegas slider
    ========================================================================== */

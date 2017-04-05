@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    $("#spinner").append("<img src='./mail/ajax-loader.gif'/>");
-    $("#spinner").hide();
+    $("#spinner").append("<img src='./mail/ajax-loader.gif'/>").hide();
+    // $("#spinner").hide();
 
     /* My Email */
     $("#personal_email").text(" vern864@gmail.com");
@@ -52,7 +52,7 @@ $(document).ready(function() {
 
     /* For Bootstrap current state on portfolio sorting */
     $('ul.nav-pills li a').click(function(e) {
-        $('ul.nav-pills li.active').removeClass('active')
+        $('ul.nav-pills li.active').removeClass('active');
         $(this).parent('li').addClass('active')
     });
 
@@ -80,6 +80,22 @@ $(document).ready(function() {
                                         easing:     'linear',
                                         queue:      false
                                     }
+            });
+            return false;
+        });
+
+        $('.project_box div a').click(function() {
+            $('.project_box .current').removeClass('current');
+            $(this).addClass('current');
+
+            var selector = $(this).attr('data-filter');
+            $container.isotope({
+                filter:             selector,
+                animationOptions:   {
+                    duration:   750,
+                    easing:     'linear',
+                    queue:      false
+                }
             });
             return false;
         });
