@@ -63,6 +63,14 @@ $(document).ready(function() {
         return false;
     });
 
+    $('.project_box').mouseenter(function() {
+        $(this).toggleClass("lightblue");
+    });
+
+    $('.project_box').mouseleave(function() {
+        $(this).toggleClass("lightblue");
+    });
+
     /* portfolio mixitup */
     $(window).load(function() {
         var $container = $('.grid-wrapper');

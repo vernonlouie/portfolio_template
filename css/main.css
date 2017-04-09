@@ -252,6 +252,18 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+.lightblue {
+    background-color:  lightblue;
+}
+
+#page-portfolio img {
+    border: 0.2em solid lightgray;
+}
+
+.project_box div img:hover {
+    border: 0.2em solid darkblue;
+}
+
 .project_box ul li {
     display:    inline-block;
     padding:    0.5em;
