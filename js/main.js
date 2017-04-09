@@ -56,6 +56,13 @@ $(document).ready(function() {
         $(this).parent('li').addClass('active')
     });
 
+    $('.project_box div a').click(function() {
+        $('html, body').animate({
+            scrollTop: $(".app_screenshot").offset().top
+        }, 1000);
+        return false;
+    });
+
     /* portfolio mixitup */
     $(window).load(function() {
         var $container = $('.grid-wrapper');
@@ -143,10 +150,10 @@ $(document).ready(function() {
     /* VEGAS Home Slider */
     $('#page-welcome').vegas({
     slides: [
-                { src: 'img/slider/IMG_9096.jpg' },
+                { src: 'img/slider/img_9096.jpg' },
                 { src: 'img/slider/20161030_120811.jpg' },
                 { src: 'img/slider/20161029_144458.jpg' },
-                { src: 'img/slider/IMG_9027.jpg' }
+                { src: 'img/slider/img_9027.jpg' }
             ],
     overlay: true
     });
