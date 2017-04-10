@@ -252,8 +252,16 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.lightblue {
-    background-color:  lightblue;
+.lightblue:hover {
+    background-color:   lightblue;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.bold:hover {
+    font-weight:  bold;
 }
 
 #page-portfolio img {
