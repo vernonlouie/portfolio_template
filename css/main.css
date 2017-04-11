@@ -244,6 +244,16 @@ h1, h2, h3, h4, h5, h6 {
     transition-duration:            0s;
 }
 
+.shit {
+    width:  50vw;
+    display:    inline-block;
+}
+
+.dog {
+    width:  50vw;
+    display:    inline-block;
+}
+
 .page-portfolio p {
     color:  darkslategrey;
 }
@@ -806,8 +816,20 @@ label.valid {
         height: 75px;
     }
 
-    .page-skills h3 {           /* shrink corresponding skill text */
+    h3 {           /* shrink corresponding skill text */
         font-size:  12px;
+    }
+
+    #page-experience h3, #page-education h3, .app_screenshot h3 {
+        font-size:  18px;
+    }
+
+    #page-contact h3, #page-experience h3 {
+        font-size:  20px;
+    }
+
+    #grid p {
+        font-size: 10px;
     }
 
     .sjsu {                     /* SJSU icon was protruding into the spacer above, so had to move it away */
@@ -819,7 +841,6 @@ label.valid {
     #grid {                     /* center the 2 columns of screenshots */
         margin-left:    32px;
     }
-
 }
 
 
