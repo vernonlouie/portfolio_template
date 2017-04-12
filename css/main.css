@@ -760,13 +760,7 @@ label.valid {
     }
 }
 
-@media (max-width: 768px) {     /* contact info looked funny being on the left side once it jumped on top of "get in touch" form */
-    .contact-info {
-        text-align: center;
-    }
-}
-
-@media (max-width: 479px) {
+@media (max-width: 768px) {
     #page-welcome header h1 {
         font-size:  2em;
     }
@@ -840,6 +834,10 @@ label.valid {
 
     #grid {                     /* center the 2 columns of screenshots */
         margin-left:    32px;
+    }
+
+    .contact-info {             /* contact info looked funny being on the left side once it jumped on top of "get in touch" form */
+        text-align: center;
     }
 }
 
