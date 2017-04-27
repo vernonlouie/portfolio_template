@@ -143,9 +143,9 @@
 
                 <div class="projects"> <!-- project app and source code links -->
                     <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 project_box">
-                        <p> MacDIYver  <button class="button1" type="button"  data-toggle="collapse" data-target="#macdiyver_project_info"> more/less project info  </button> </p>
-
-                        <span>Got tools...find/build projects!</span>
+                        <p> MacDIYver </p>
+                        <div>Got tools...find/build projects!</div>
+                        <button class="button1" type="button"  data-toggle="collapse" data-target="#macdiyver_project_info"> hide/unhide project info  </button>
                         <!--<span>Users input tools they have and the app displays art/home projects that they can make from those tools.</span>-->
                         <div class="filter">
                             <a href="javascript:void(0)" data-filter=".macdiyver">
@@ -161,7 +161,7 @@
                     </div>
 
                     <!--<div>-->
-                        <!--<div class="filter shit">-->
+                        <!--<div class="filter">-->
                             <!--<a href="javascript:void(0)" data-filter=".macdiyver">-->
                                 <!--<img src="img/portfolio/small/sml_macdiyver_a.png" alt="image a of MacDIYver">-->
                             <!--</a>-->
@@ -178,8 +178,9 @@
 
                     <!--</div>-->
                     <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 project_box">
-                        <p> Find Music Venue <button class="button1" type="button"  data-toggle="collapse" data-target="#macdiyver_project_info"> more/less project info  </button> </p>
-                        <span>Find music venue in your area!</span>
+                        <p> Find Music Venue  </p>
+                        <div>Find music venue in your area!</div>
+                        <button class="button1" type="button"  data-toggle="collapse" data-target="#venueFind_project_info"> hide/unhide project info  </button>
                         <div class="filter">
                             <a href="javascript:void(0)" data-filter=".musicFind">
                                 <img src="img/portfolio/small/sml_venueFind_f.png" alt="image f of Venue Find">
@@ -193,50 +194,82 @@
                         <div class="spacer hidden-md hidden-lg hidden-xl"></div>
                     </div>
 
-                    <ul id="macdiyver_project_info" class="collapse col-md-12 col-lg-12">MacDIYver
-                        <li> Role: Front and Back End Developer</li>
+                    <ul id="macdiyver_project_info" class="collapse col-xs-12 col-sm-12 col-md-12 col-lg-12"><span class="fw700">MacDIYver</span>
+                        <li> Role: Front and Back End Developer (on Team of 3)</li>
                         <li> Skills:
                             <ul>
-                                <li>Front End: Angular, Javascript, HTML
-                                    <!--<ul>-->
-                                        <!--<p></p>-->
-                                    <!--</ul>-->
-                                </li>
-                                <li>Back End: Linux, Apache, mySQL database, PHP (LAMP)
-                                    <!--<ul>-->
-                                        <!--<p></p>-->
-                                    <!--</ul>-->
-                                </li>
-                                <li>Other: phpMyAdmin, github, git
-                                    <!--<ul>-->
-                                        <!--<p></p>-->
-                                    <!--</ul>-->
-                                </li>
+                                <li>Front End: Angular, javascript, HTML</li>
+                                <li>Back End: Linux, Apache, mySQL database, PHP (LAMP)</li>
+                                <li>Other: phpMyAdmin, github, git</li>
                             </ul>
                         </li>
                         <li> Project Goals:
                             <ul>
-                                <li>Users type in the tools that they have and MacDIYver retrieves home projects that are most relevant to those tools.</li>
-                                <li>Users also submit projects for others to enjoy.</li>
+                                <li>Users type in the tools that they have and MacDIYver retrieves home projects that are most relevant to those tools</li>
+                                <li>Users also submit projects for others to enjoy</li>
                             </ul>
                         </li>
                         <li> Challenges:
                             <ul>
-                                <li>Implementing the Angular framework as we are learning Angular.</li>
-                                <li>Making the app responsive in the short time that we had.</li>
+                                <li>Implementing Angular framework</li>
+                                <li>Making the app responsive</li>
                             </ul>
                         </li>
                         <li> What I Learned:
                             <ul>
-                                <li>Implementing the Angular framework as we are learning Angular.</li>
-                                <li>Making the app responsive in the short time that we had.</li>
+                                <li>how to set up a relational database (mySQL) and write database queries</li>
+                                <li>how to use php</li>
+                                <li>how to host a website</li>
+                            </ul>
+                        </li>
+                        <li> Possible Modifications:
+                            <ul>
+                                <li>Improve the neighborhood tool search map so that multiple tools can be shown instead of searching for one tool at a time</li>
+                                <li>Create user profile pages, so users can update their submitted projects, see a history of projects they searched on or liked and list their tools so that other users can borrow from them via neighborhood tool search
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul id="venueFind_project_info" class="collapse col-xs-12 col-sm-12 col-md-12 col-lg-12"><span class="fw700">VenueFind</span>
+                        <li> Role: Front End Developer (on Team of 4)</li>
+                        <li> Skills:
+                            <ul>
+                                <li>Front End: jQuery, AJAX, APIs, javascript, CSS, HTML</li>
+                                <li>Other: github, git, Chrome Dev Tools</li>
+                            </ul>
+                        </li>
+                        <li> Project Goals:
+                            <ul>
+                                <li>To help folks make a quicker decision about where to enjoy their live music</li>
+                            </ul>
+                        </li>
+                        <li> Challenges:
+                            <ul>
+                                <li>Resolving conflicts when merging code</li>
+                                <li>Partitioning the code among the 4 team members so we wouldn't write over each other</li>
+                            </ul>
+                        </li>
+                        <li> What I Learned:
+                            <ul>
+                                <li>how to overwrite a Bootstrap css style</li>
+                                <li>how to implement AJAX method (APIs)</li>
+                                <li>how to do version control via git and github</li>
+                            </ul>
+                        </li>
+                        <li> Possible Modifications:
+                            <ul>
+                                <li>Fix the YouTube video carousel so it pauses automatically when going to next video</li>
+                                <li>Click on Google Map marker and go directly to "info" page</li>
+                                <!--<li>Provide Google Map from "your location" to music venue</li>-->
                             </ul>
                         </li>
                     </ul>
 
                     <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 project_box">
                         <p> Memory Match </p>
-                        <span>aka Concentration</span>
+                        <div>aka Concentration</div>
+                        <button class="button1" type="button"  data-toggle="collapse" data-target="#memMatch_project_info"> hide/unhide project info  </button>
                         <div class="filter">
                             <a href="javascript:void(0)" data-filter=".memMatch">
                                 <img src="img/portfolio/small/sml_memMatch_d.png" alt="image d of Memory Match">
@@ -248,8 +281,9 @@
                         </ul>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 project_box">
-                        <p> Calculator </p>
-                        <span class="invisible">Arithmetic and more!</span>
+                        <p> Calculator  </p>
+                        <div class="invisible">Arithmetic and more!</div>
+                        <button class="button1" type="button" data-toggle="collapse" data-target="#calc_project_info"> hide/unhide project info </button>
                         <div class="filter">
                             <a href="javascript:void(0)" data-filter=".calc">
                                  <img src="img/portfolio/small/sml_calc.png" alt="Calculator png">
@@ -260,7 +294,77 @@
                             <li><a href="https://github.com/vernonlouie/v_calculator/tree/version1.4" target="_blank" class="bold">Source Code</a></li>
                         </ul>
                     </div>
-                </div> <!-- end of project app and source code links -->
+
+                    <ul id="memMatch_project_info" class="collapse col-xs-12 col-sm-12 col-md-12 col-lg-12"><span class="fw700">Memory Match</span>
+                        <li> Role: Front End Developer (solo)</li>
+                        <li> Skills:
+                            <ul>
+                                <li>Front End: jQuery, Bootstrap, javascript, CSS, HTML</li>
+                                <li>Other: github, GIMP, Chrome Dev Tools</li>
+                            </ul>
+                        </li>
+                        <li> Project Goals:
+                            <ul>
+                                <li>Make a cool kids' game (at least for little girls)</li>
+                            </ul>
+                        </li>
+                        <li> Challenges:
+                            <ul>
+                                <li>Trying to account for possible user errors (users clicking on wrong cards, etc.)</li>
+                                <li>Responsivenss</li>
+                            </ul>
+                        </li>
+                        <li> What I Learned:
+                            <ul>
+                                <li>how to position elements</li>
+                                <li>how to use jQuery methods and chaining</li>
+                                <li>how to implement downloadable fonts and sound files</li>
+                            </ul>
+                        </li>
+                        <li> Possible Modifications:
+                            <ul>
+                                <li>Implement a timer so people can try to beat their best time</li>
+                                <li>Implement a database to record statistics</li>
+                                <!--<li>Provide Google Map from "your location" to music venue</li>-->
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul id="calc_project_info" class="collapse col-xs-12 col-sm-12 col-md-12 col-lg-12"><span class="fw700">Calculator</span>
+                        <li> Role: Front End Developer (solo)</li>
+                        <li> Skills:
+                            <ul>
+                                <li>Front End: jQuery, javascript, CSS, HTML</li>
+                                <li>Other: github, Chrome Dev Tools</li>
+                            </ul>
+                        </li>
+                        <li> Project Goals:
+                            <ul>
+                                <li>A functional calculator with a few advanced features</li>
+                            </ul>
+                        </li>
+                        <li> Challenges:
+                            <ul>
+                                <li>Sequencing of if-else conditional statements</li>
+                                <li>The advanced operations (order of operations and parentheses)</li>
+                            </ul>
+                        </li>
+                        <li> What I Learned:
+                            <ul>
+                                <li>how to manipulate arrays and array operations</li>
+                                <li>how to split up code into discrete chunks called functions</li>
+                                <li>how to increment "for loop" nontraditionally</li>
+                            </ul>
+                        </li>
+                        <li> Possible Modifications:
+                            <ul>
+                                <li>Place answer into memory to recall later when needed</li>
+                                <li>Porgramming this later as a state machine</li>
+                                <!--<li>Provide Google Map from "your location" to music venue</li>-->
+                            </ul>
+                        </li>
+                    </ul>
+                </div> <!-- end of project app, source code links, and project info -->
 
                 <div class="app_screenshot">
                     <h3 class="section-subtitle block"> App Screenshots </h3>
@@ -664,6 +768,14 @@
                 <p id="quote3" class="section-subtitle"></p>
                 <p id="person_quoted3" class="person_quoted"></p>
             </header>
+
+            <div class="social-icons text-center">
+                <a href="https://docs.google.com/document/d/1u_A0M6Jy7WFYfBxc0FTrZFk6H4MBsORv7ziWYwDLanA/pub" target="_blank" class="btn"> <button class="button2">Resume</button> </a>
+                <a href="https://github.com/vernonlouie" target="_blank" class="btn"> <img src="img/github1.png" class="skill_icon button2"> </a>
+                <a href="https://www.linkedin.com/in/vernon-louie-a7b89538/" target="_blank" class="btn btn-round btn-clear btn-linkedin"> <i class="fa fa-linkedin-square"></i> </a>
+                <a href="https://angel.co/vernon-louie?public_profile=1" target="_blank" class="btn btn-round btn-clear btn-angellist"> <i class="fa fa-angellist" aria-hidden="true"></i> </a>
+            </div>
+
             <div class="row">
                 <div class="col-sm-5 contact-info">
                     <h3>Contact Info</h3>

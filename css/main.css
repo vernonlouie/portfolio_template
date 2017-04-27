@@ -244,15 +244,26 @@ h1, h2, h3, h4, h5, h6 {
     transition-duration:            0s;
 }
 
-.shit {
-    width:  50vw;
-    display:    inline-block;
+.button1 {
+    background-color:   darkblue;
+    border-radius:      0.5em;
+    font-size:          0.9em;
+    color:              white;
+    margin-bottom:      0.3em;
 }
 
-.dog {
-    width:  50vw;
-    display:    inline-block;
+.fw700 {
+    font-weight:        700;
+    text-decoration:    underline;
 }
+
+.projInfo {
+    height: 1px;
+}
+/*.dog {*/
+    /*width:  50vw;*/
+    /*display:    inline-block;*/
+/*}*/
 
 .page-portfolio p {
     color:  darkslategrey;
@@ -293,7 +304,7 @@ h1, h2, h3, h4, h5, h6 {
     padding:        5px 0 0 0;
     margin-bottom:  2px;
     color:          slategray;
-    font-size:      18px;
+    font-size:      20px;
     font-weight:    600;
     font-style:     italic;
 }
@@ -579,6 +590,7 @@ label.valid {
    ========================================================================== */
 .social-icons .btn {
     margin-right: 15px;
+    padding:        0;
 }
 
 .social-icons {
@@ -748,6 +760,24 @@ label.valid {
 
 #page-experience .container .row .col-md-6 .experience header .boeing {
     display:    inline-block;
+}
+
+/*  ===========================================================================
+    Contact section - my additions
+    =========================================================================== */
+.button2 {
+    background-color:   powderblue;
+    border-radius:      0.5em;
+    font-size:          20px;
+    color:              darkblue;
+}
+
+.button2:hover {
+    opacity:    0.5;
+}
+
+.socMedia {
+    margin: 5px;
 }
 
 /* ==========================================================================
