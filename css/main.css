@@ -595,7 +595,7 @@ label.valid {
 
 .social-icons {
     padding-top:    10px;
-    margin-bottom:  35px;
+    margin-bottom:  8px;
 }
 
 .social-icons .btn.btn-clear {
@@ -665,6 +665,10 @@ label.valid {
 
 .btn-google:hover {
     color: #D3492C;
+}
+
+.btn-angellist:hover {
+    color:  darkblue;
 }
 
 /* ==========================================================================
@@ -770,14 +774,16 @@ label.valid {
     border-radius:      0.5em;
     font-size:          20px;
     color:              darkblue;
+    border:             0;
 }
 
 .button2:hover {
     opacity:    0.5;
 }
 
-.socMedia {
-    margin: 5px;
+.sml_sqr {
+    width:  60px;
+    height: 60px;
 }
 
 /* ==========================================================================
