@@ -71,14 +71,6 @@ $(document).ready(function() {
         $(this).toggleClass("lightblue");
     });
 
-    /* Scroll from "hide/unhide project info" to project info */
-    // $('.project_box .button1').click(function() {
-    //     $('html, body').animate({
-    //         scrollTop: $("#macdiyver_project_info").offset().top
-    //     }, 1000);
-    //     return false;
-    // });
-
     /* portfolio mixitup */
     $(window).load(function() {
         var $container = $('.grid-wrapper');
