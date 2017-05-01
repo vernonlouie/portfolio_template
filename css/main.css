@@ -252,6 +252,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom:      0.3em;
 }
 
+.button1:hover {
+    opacity:    0.5;
+}
+
+.project_box img:hover {
+    opacity:    0.5;
+}
+
 .fw700 {
     font-weight:        700;
     text-decoration:    underline;
@@ -589,7 +597,7 @@ label.valid {
    Social icons
    ========================================================================== */
 .social-icons .btn {
-    margin-right: 15px;
+    margin-right: 9px;
     padding:        0;
 }
 
@@ -739,6 +747,18 @@ label.valid {
     bottom:     0.4em;
 }
 
+.education h3 {
+    color:  slategrey;
+}
+
+.education img:hover {
+    opacity:    0.5;
+}
+
+.education h3:hover {
+    opacity:    0.5;
+}
+
 /*  ===========================================================================
     Experience section - my additions
     =========================================================================== */
@@ -762,8 +782,21 @@ label.valid {
     bottom:     0.4em;
 }
 
+
 #page-experience .container .row .col-md-6 .experience header .boeing {
     display:    inline-block;
+}
+
+.experience h3 {
+    color:  slategrey;
+}
+
+.experience img:hover {
+    opacity:    0.5;
+}
+
+.experience h3:hover {
+    opacity:    0.5;
 }
 
 /*  ===========================================================================
