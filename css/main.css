@@ -908,6 +908,10 @@ label.valid {
     .contact-info {             /* contact info looked funny being on the left side once it jumped on top of "get in touch" form */
         text-align: center;
     }
+
+    .sml_top_margin {
+        margin-top: 8px;
+    }
 }
 
 
